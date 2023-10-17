@@ -1,9 +1,12 @@
 body {
   background-color: powderblue;
+  font-family: "Gills Sans";
 }
 h1 {
   color: blue;
+  font-family: "Gills Sans";
 }
 p {
   color: red;
+  font-family: "Gills Sans";
 }
