@@ -10,3 +10,26 @@ p {
   color: red;
   font-family: "Gills Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+  }
+  .button {
+  transition-duration: 0.5s;
+  border: 2px solid white;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #4CAF50; /* Green */
+    font-family: "Courier New", monospace;
+  }
+  .button:hover {
+  border: 2px solid #4CAF50;
+    color: black;
+    background-color: #ffffff; 
+  }
