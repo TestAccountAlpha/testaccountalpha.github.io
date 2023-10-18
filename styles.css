@@ -16,7 +16,7 @@ a {
   .button {
   transition-duration: 0.5s;
   border: 2px solid white;
-    color: white;
+    color: black;
     padding: 10px 12px;
     text-align: center;
     text-decoration: none;
@@ -25,11 +25,10 @@ a {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-    background-color: #4CAF50; /* Green */
+    background-color: rgb(150,150,150); /* grey */
     font-family: "Courier New", monospace;
   }
   .button:hover {
   border: 2px solid #4CAF50;
-    color: black;
-    background-color: #ffffff; 
+    background-color: rgb(200,200,200); 
   }
