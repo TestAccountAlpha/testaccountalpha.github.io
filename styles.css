@@ -12,23 +12,23 @@ p {
 }
 a {
   text-decoration: none;
-  }
-  .button {
+}
+.button {
   transition-duration: 0.5s;
   border: 2px solid white;
-    color: black;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    background-color: rgb(150,150,150); /* grey */
-    font-family: "Courier New", monospace;
-  }
-  .button:hover {
+  color: black;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: rgb(150,150,150); /* grey */
+  font-family: "Courier New", monospace;
+}
+.button:hover {
   border: 2px solid #4CAF50;
-    background-color: rgb(200,200,200); 
-  }
+  background-color: rgb(200,200,200); 
+}
