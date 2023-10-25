@@ -1,14 +1,14 @@
 body {
   background-color: powderblue;
-  font-family: "Gills Sans", sans-serif;
+  font-family: "Playpen Sans", "Gills Sans", sans-serif;
 }
 h1 {
   color: blue;
-  font-family: "Gills Sans", sans-serif;
+  font-family: "Quicksand", "Gills Sans", sans-serif;
 }
 p {
   color: red;
-  font-family: "Gills Sans", sans-serif;
+  font-family: "Nunito", "Gills Sans", sans-serif;
 }
 .overall {
   border: solid;
