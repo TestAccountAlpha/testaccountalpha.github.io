@@ -26,7 +26,20 @@ p {
 a {
   text-decoration: none;
 }
+.button {
+  border: 2px solid rgb(100,100,100);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Monospace', 'Nunito', 'Verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(180,180,180);
+  transition-duration: 0.5s;
+}
 .overall:hover {
-  border: 2px solid #4CAF50;
   background-color: rgb(200,200,200); 
 }
