@@ -34,9 +34,9 @@ a {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
+  cursor: crosshair;
   border-radius: 12px;
-  font-family: 'Monospace', 'Nunito', 'Verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Nunito', 'Verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(180,180,180);
   transition-duration: 0.5s;
 }
