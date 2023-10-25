@@ -10,25 +10,14 @@ p {
   color: red;
   font-family: "Nunito", "Gills Sans", sans-serif;
 }
-.overall {
-  border: solid;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-  font-family: 'Nunito', 'Verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 a {
   text-decoration: none;
 }
 .button {
   border: 2px solid rgb(100,100,100);
-  padding: 15px 32px;
+  color: black;
+  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -40,6 +29,12 @@ a {
   background-color: rgb(180,180,180);
   transition-duration: 0.5s;
 }
-.button:hover {
+.button1 {
   background-color: rgb(200,200,200); 
+  color: black;
+}
+
+.button1:hover {
+  background-color: rgb(120,120,120); 
+  color: black;
 }
