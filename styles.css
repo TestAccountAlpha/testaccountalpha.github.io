@@ -1,3 +1,6 @@
+/* https://www.w3schools.com/css/css_tooltip.asp */
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
 body {
   background-color: powderblue;
   font-family: "Playpen Sans", "Gills Sans", sans-serif;
@@ -14,6 +17,30 @@ p {
 a {
   text-decoration: none;
 }
+
+.navSelector {
+  color: green;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.navSelector::before {
+  position: absolute;
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: green;
+  content: ">>> ";
+}
+
+.navSelector:hover {
+  transform: translateX(40px);
+}
+
+.navSelector:hover::before {
+  opacity: 1;
+}
+
 .button {
   border: 2px solid rgb(100,100,100);
   color: black;
